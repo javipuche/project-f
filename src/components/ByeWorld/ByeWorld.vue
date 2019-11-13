@@ -1,17 +1,17 @@
 <template>
-    <div class="hello">
-        <p>Hello</p>
+    <div class="bye">
+        <p>bye</p>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'HelloWorld'
+        name: 'ByeWorld'
     }
 </script>
 
 <style lang="scss" scoped>
-  .hello {
-    color: green;
+  .bye {
+    color: cadetblue;
   }
 </style>

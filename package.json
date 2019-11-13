@@ -1,12 +1,11 @@
 {
   "name": "test-project-f",
-  "version": "0.1.13",
-  "module": "src/components/index.js",
+  "version": "0.1.73",
   "main": "dist/myLib.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:lib": "vue-cli-service build --target lib --name myLib ./src/index.js"
+    "build:lib": "vue-cli-service build --target lib --name myLib ./src/components/lib.js"
   },
   "dependencies": {
     "core-js": "^3.4.0",

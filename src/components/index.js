@@ -1,5 +1,2 @@
-import HelloWorld from './HelloWorld/HelloWorld.vue'
-
-export {
-    HelloWorld
-}
+export { default as HelloWorld } from './HelloWorld'
+export { default as ByeWorld } from './ByeWorld'
